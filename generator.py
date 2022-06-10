@@ -1,7 +1,7 @@
 print("Welcome to the multiplication table generator");
 print("Which multiplication table you want")
 option = int(input(""))
-
+#goon is of no use
 goon = "Yes"
 while goon == "Yes":
     calculation1  == int(option) * 1
