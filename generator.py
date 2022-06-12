@@ -1,9 +1,8 @@
 print("Welcome to the multiplication table generator");
 print("Which multiplication table you want")
 option = int(input(""))
-#goon is of no use
-goon = "Yes"
-while goon == "Yes":
+
+def code():
     calculation1  = int(option) * 1
     calculation2  = int(option) * 2
     calculation3  = int(option) * 3
@@ -24,4 +23,4 @@ while goon == "Yes":
     print(calculation8)
     print(calculation9)
     print(calculation10)
-    break
+code()
